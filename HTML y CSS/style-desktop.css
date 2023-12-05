@@ -1,0 +1,108 @@
+@media only screen and (min-width: 1200px){
+  #columna1, #columna, #columna3 {
+    float: left;
+    width: 33%;
+  }
+}
+
+body {
+
+  font-size: 120%;
+}
+
+img, video, object { max-width: 100%;}
+
+main {
+  min-height: calc(100vh - 60px); /* Altura del header */
+}
+
+.hero {
+  position: fixed;
+  display: grid;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+#menu {
+  display: block;
+}
+
+#max-content-home {
+  display: grid;
+  gap: 20px;
+}
+
+#properties-for-sale-content-home {
+  text-align: right;
+  justify-content: flex-start;
+}
+#properties-for-rent-content-home {
+  text-align: left;
+  justify-content: flex-end;
+}
+#developments-content-home {
+  text-align: center;
+}
+
+.grid-content-home {
+  display: grid;
+  gap: 20px;
+}
+
+.slider-gallery {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.slider-gallery img {
+  width: 100%;
+  height: auto;
+}
+
+#real-sale-desc-home,
+#real-rent-home,
+#worlwide-label,
+#properties-type-label,
+#desc-label-prop-type,
+#nav-for-sale,
+#nav-for-rent,
+#dev-redirect {
+  margin-top: 20px;
+}
+
+#nav-for-sale,
+#nav-for-rent,
+#nav-for-art {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.label-nav-pag,
+.label-nav-pag-butt,
+.label-nav-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arr-nav-ab {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 5px;
+}
+
+#developments-label-home {
+  margin-top: 40px;
+}
+
+#developments-content-home {
+  text-align: center;
+
+}
+
