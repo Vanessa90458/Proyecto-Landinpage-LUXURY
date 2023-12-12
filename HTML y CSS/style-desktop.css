@@ -106,3 +106,69 @@ main {
 
 }
 
+#desktop {
+  height: 100px;
+  width: 100px;
+  display: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 64px;
+  margin-right: 50px;
+}
+
+.login,
+.menu {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.menu img {
+  width: 50px;
+}
+
+.bar {
+  width: 3px;
+  background-color: white;
+  height: 16px;
+}
+
+.large {
+  height: 65px;
+}
+
+.active {
+  color: rgb(198, 198, 198);
+}
+
+main img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: top -100px right 0;
+}
+
+@media screen and (max-width: 1200px) {
+  #logo {
+    display: none;
+  }
+  #desktop {
+    display: block;
+  }
+
+  .login {
+    display: none;
+  }
+
+  .menu a,
+  .menu div {
+    display: none;
+  }
+
+  main img {
+    object-position: center;
+  }
+}
+
